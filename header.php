@@ -15,6 +15,3 @@
                 <a href="#">Contact</a> 
             </nav>    
         </header>
-
-    </body>
-</html>
