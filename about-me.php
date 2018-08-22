@@ -1,8 +1,14 @@
 <?php
  include "header.php";
 ?>
-<main>
+<main role="main">
+    <div class="t">
+    <div class="profile-image">
         <img src="images/profil-image.jpeg" />
+    </div>
+    <h2>Web developer // Fusce imperdiet // sit amet</h2>
+</div>
+    <hr>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Fusce imperdiet mi sed quam faucibus, quis congue urna viverra. 
         Vestibulum eu quam cursus, egestas orci sed, fermentum risus.

@@ -13,7 +13,7 @@
             </div>
             </a>
             <nav class="main-nav">
-                <a href="about-me.php">About me</a>
+                <a href="about-me.php" class="active">About me</a>
                 <a href="#">Portfolio</a> 
                 <a href="#">CV</a>
                 <a href="#">Contact</a> 
