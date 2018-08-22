@@ -25,14 +25,30 @@ header{
     color: #fff;
     height: 85px;
 }
-.logo{
-    float: left;
-    width: 250px;
-    padding: 25px 0 0 30px;
-}
-h1:hover {
-    color: lightblue;
-}
+    /*----------------------------
+    ---------------LOGO-----------
+    ----------------------------*/
+    .logo{
+        float: left;
+        width: 300px;
+        margin: 25px 0 0 15px;
+    }
+    .logo img{
+        width: 40px;
+        height: 40px; 
+        float: left;
+        border: solid 1px #fff;
+        border-radius: 100px;
+    }
+    .logo h1{
+        float: left;
+        margin-left: 10px; 
+    }
+    .logo:hover img, 
+    .logo:hover h1 {
+        color: lightblue;
+        border-color: lightblue;
+    }
 /*------------------------------------------------------------------------------------
 ------------------MAIN-NAVIGATION-----------------------------------------------------
 ------------------------------------------------------------------------------------*/
@@ -46,7 +62,7 @@ h1:hover {
     padding: 14px 16px;
 }
 .main-nav a:hover{
-    color: lightblue;
+    color: lightblue;  
 }
 
 /*------------------------------------------------------------------------------------
@@ -66,8 +82,24 @@ footer{
     height: 500px;
 }
 
-.slider img {
-    
+.slider img {   
     width: 100%;
     height: 500px;
+}
+
+/*-----------------------------------------------------------------------------------
+------------------ABOUT ME-----------------------------------------------------------
+-----------------------------------------------------------------------------------*/
+/*.profile-image img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border: solid 1px #fff;
+    float: left;
+    /*margin: 25px 0 0 30px;
+}*/
+
+main{
+    margin: 0 auto;
+    width: 80%;
 }
