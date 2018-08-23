@@ -9,7 +9,11 @@
     <h2>Web developer // Fusce imperdiet // sit amet</h2>
 </div>
     <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <p>I'm a webdeveloper that strives to create modern and intuitive webpages.
+            My ambitionlevel is to develope my technical knowledge and get better in time.
+           Some of the strongest sides that I possess lays within HTML, CSS och PHP. <br><br>
+            
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Fusce imperdiet mi sed quam faucibus, quis congue urna viverra. 
         Vestibulum eu quam cursus, egestas orci sed, fermentum risus.
          Ut quis ex vel lectus laoreet tincidunt vitae a purus. 
@@ -38,7 +42,7 @@ rutrum luctus fringilla vitae, facilisis et lectus. Proin at
 
 Ut laoreet tellus ac risus ullamcorper, quis interdum augue vehicula.
  Morbi scelerisque porta neque commodo pharetra. In id nibh metus.
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Lorem ipdafdam dolor sit amet, consectetur adipiscing elit.
    Fusce pulvinar elementum nibh, ut luctus nibh consectetur eu.
     Donec quis tempor dolor. Aenean ac gravida magna. Nunc sit amet
     us justo, id ultricies nisi. Sed porttitor est id consectetur 
