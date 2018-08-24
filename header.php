@@ -6,6 +6,7 @@
     </head>
     <body>
         <header>
+            <div id="header-content">
         <a href="index.php">
             <div class="logo">
                     <img src="images/profil-image.jpeg" />
@@ -18,5 +19,6 @@
                 <a href="#">Portfolio</a> 
                 <a href="#">CV</a>
                 <a href="#">Contact</a> 
-            </nav>    
+            </nav>
+</div> 
         </header>

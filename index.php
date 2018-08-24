@@ -1,10 +1,10 @@
 <?php
  include "header.php";
 ?>
-<div class="slider">
-<img src="images/car.jpg"  height="600px"/>
+<video autoplay muted loop class="start-mov">
+  <source src="chryslermov.mp4" type="video/mp4">
+</video>
 
-</div>
 <?php
  include "footer.php";
 ?>

@@ -24,6 +24,12 @@ header{
     background-color: #000000;
     color: #fff;
     height: 85px;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
     /*----------------------------
     ---------------LOGO-----------
@@ -31,7 +37,7 @@ header{
     .logo{
         float: left;
         width: 300px;
-        margin: 25px 0 0 15px;
+        margin: 25px 0 0 45px;
     }
     .logo img{
         width: 40px;
@@ -72,7 +78,7 @@ header{
 -----------------FOOTER---------------------------------------------------------------
 ------------------------------------------------------------------------------------*/
 footer{
-    padding: 40px 15px 15px 15px;
+    padding: 40px 0 15px 0;
     background-color:#000000;
     color: #fff;
     width: 100%;
@@ -96,7 +102,6 @@ footer{
 .slider{
     margin: 0 auto;
     background-color: gray;
-    width: 80%;
     height: 500px;
 }
 
@@ -127,9 +132,12 @@ h2 {
     float: left;
     color: #023b78;
 }
-.t {
-    width: 100%;
-}
+
 .fa-facebook-square{
     color: #fff;
+}
+.start-mov{
+    max-width: 100%;
+    max-height: 100%;
+
 }

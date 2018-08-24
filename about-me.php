@@ -2,17 +2,16 @@
  include "header.php";
 ?>
 <main role="main">
-    <div class="t">
     <div class="profile-image">
         <img src="images/profil-image.jpeg" />
     </div>
     <h2>Web developer // Fusce imperdiet // sit amet</h2>
-</div>
-    <hr>
+
         <p>I'm a webdeveloper that strives to create modern and intuitive webpages.
-            My ambitionlevel is to develope my technical knowledge and get better in time.
+            My ambition is to develope my technical knowledge and get better in time.
            Some of the strongest sides that I possess lays within HTML, CSS och PHP. <br><br>
-            
+        </p> 
+        <p>   
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Fusce imperdiet mi sed quam faucibus, quis congue urna viverra. 
         Vestibulum eu quam cursus, egestas orci sed, fermentum risus.
