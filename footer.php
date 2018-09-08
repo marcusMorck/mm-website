@@ -13,9 +13,9 @@
                 <p class="copyright">COPYRIGHT &copy; <?php echo date("Y"); ?> Marcus Morck. All Rights Reserved.</p>
             </div>
             <div class="footer-social">
-                <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
-                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://www.facebook.com/marcus.morck"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a href="https://www.instagram.com/marcusmorck/"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/marcusmorck/"><i class="fab fa-linkedin fa-2x"></i></a>
             </div>
 
 
