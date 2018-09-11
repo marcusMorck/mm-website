@@ -1,6 +1,9 @@
 <?php
  include "header.php";
 ?>
+<div class="hero">
+    <img src="images/hero-aboutme.jpg">
+</div>
 <main role="main">
     <div class="profile-image">
         <img src="images/profil-image.jpeg" />
