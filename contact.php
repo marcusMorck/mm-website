@@ -15,19 +15,22 @@
         </p>
 
         <form action="">
-            <div class="contact-test">
-                <!--<label for="forname">* Name:</label>-->
+            <div class="form-group">
+            <!--<label for="forname">* Name:</label>-->
                 <input type="text" name="name" placeholder="Your Name (required)">
-            </div>
-            <div class="contact-test">
+            
+            
             <!--<label for="lastname">* lastname:</label>-->
             <input type="text" name="lastname"placeholder="Your Lastname (required)">
-            </div>
-            <div class="contact-test">
+            </div>   
+            <div class="form-group">
             <!--<label for="email">* lastname:</label>-->
             <input type="email" name="email"placeholder="Your Email (required)">
             </div>
-            <textarea></textarea>
+            <div class="form-group">
+                
+                <textarea></textarea>
+            </div>
         </form>
     </section>
 </main>

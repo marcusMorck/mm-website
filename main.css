@@ -180,21 +180,42 @@ footer{
 .footer-social .fab{
     margin: 0 10px 0 0;
 }
+/*------------------------------------------------------------------------------------
+-----------------CONTACT PAGE---------------------------------------------------------
+------------------------------------------------------------------------------------*/
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
-#contact input {
-    box-shadow: none;
-    border: none;
+}
+#contact form{
+    /*display: flex;
+    justify-content: space-around;
+    flex-wrap: row wrap;*/
+    width: 80%;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+}
+.form-group input{
+    flex: 1 1 auto;
     font-size: 16px;
-    padding: 8px 8px 8px 10px; 
+    margin: 10 0px;
+    padding: 8px 8px 8px 10px;
+    outline: none; 
+    border-width: 0 0 2px;
+    
 }
-#contact input:focus{
+.form-group textarea{
+    flex: 1 1 auto;
     outline: none;
+    border-width: 0 0 2px; 
+}
+#contact input:focus, textarea:focus{
+    outline: none;
+    border-bottom: 2px solid #023b78;
 }
 
-.contact-test{
-    width: 200px;
-    border-bottom: 2px solid black;
-}
-input:focus,.contact-test:focus{
-    border-bottom: 2px solid blue;
-}
