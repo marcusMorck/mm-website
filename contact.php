@@ -2,10 +2,19 @@
  include "header.php";
 ?>
 <div class="hero">
-    <img src="images/hero-contact.jpg">
+
+  <!--<a href="http://codepen.io/zFunx/pen/GmMGax" class="contact-info-image" data-title="Contact Info" data-text="Telephone: +46 703960135<br>Email: jakkdakadk" >
+        </a>-->
+<img src="images/hero-contact.jpg" />
+<div class="overlay">
+<div class="overlay-title">Contact</div>
+<div class="overlay-text">Telephone: +46 703960135</div>
+
+</div>
 </div>
 <main role="main">
     <section id="contact">
+
         <h2>Contact me</h2>
 
         <p>
@@ -28,8 +37,8 @@
             <input type="email" name="email"placeholder="Your Email (required)">
             </div>
             <div class="form-group">
-                
-                <textarea></textarea>
+                 
+                <textarea>  </textarea>
             </div>
         </form>
     </section>

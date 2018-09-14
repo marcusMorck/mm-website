@@ -20,9 +20,12 @@ a{
     text-decoration: none;
 }
 .hero{
+    height: 590px;
     width: 100%;
+    position: relative;
 }
 .hero img{
+    
     width: 100%;
     max-height: 590px;
 }
@@ -219,3 +222,107 @@ footer{
     border-bottom: 2px solid #023b78;
 }
 
+/*
+.contact-info-image{
+    position: relative;
+    top: 80;
+	width: 400px;
+	height: 400px;
+	float: right;
+	margin: 4px;
+	background-size: 100%;
+	background-position: center;
+	transition: 0.5s;
+	overflow: hidden;
+
+}
+.contact-info-image:hover {
+	background-size: 110%;
+}
+.contact-info-image:before {
+	position: absolute;
+	top: 0 ;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transform: translateX(
+		90%
+	); /*use transform:translateY(100%); to remove footer
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	padding: 0 8px;
+	content: attr(data-title);
+	transition: 0.5s 0.1s;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.contact-info-image:after {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #fff;
+	padding: 8px;
+    content: attr(data-text);
+	transition: 0.5s;
+	padding-top: 2em;
+	margin-top: 8px;
+	transform: translateX(100%);
+	opacity: 0;
+}
+
+.contact-info-image:hover:after {
+	transform: translateY(0);
+	transition: 0.5s 0.1s;
+	opacity: 1;
+}
+.contact-info-image:hover:before {
+	transform: translateY(0);
+	padding: 8px;
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: 0.5s;
+}
+
+*/
+
+.overlay{
+    position: absolute;
+    top: 80;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    overflow: hidden;
+    width: 0;
+    height: 400px;
+    transition: .5s ease;
+    background-color: #023b78;
+}
+.hero:hover .overlay {
+    width: 30%;
+    left: 0;
+  }
+.overlay-title {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  .overlay-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
