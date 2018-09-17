@@ -197,6 +197,7 @@ footer{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: hsl(209, 30%, 59%);
 }
 #contact h2{
     text-align: center;
@@ -216,6 +217,8 @@ footer{
     .form-group input,
     .form-group textarea{
         width: 40%;
+        background-color: hsl(209, 30%, 59%);
+
         /*flex: 1 1 auto;*/
         font-size: 16px;
         margin: 10 0px;
@@ -228,14 +231,20 @@ footer{
     }
     .form-group textarea{
         flex: 1 1 auto;
+        background-color: hsl(209, 30%, 59%);
         border-color: gray;
         resize: none;
+    }
+    .form-group input[type="submit"]{
+        border: 1px solid #fff;
+        border-radius: 5px;
     }
     #contact input:focus, 
     #contact textarea:focus{
         outline: none;
         border-bottom: 2px solid #023b78;
     }
+    #con
     /*-----------------------------------
     ----------OVERLAY--------------------
     -----------------------------------*/

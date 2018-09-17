@@ -11,7 +11,8 @@
 </div>
 <main role="main">
     <section id="contact">
-
+        <p>Email: marcus.morck@gmail.com</p>
+        <p>
         <h2>Contact me</h2>
 
         <p>
@@ -30,6 +31,9 @@
             </div>
             <div class="form-group">
                 <textarea placeholder="Your Message"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Send">
             </div>
         </form>
     </section>
