@@ -2,15 +2,12 @@
  include "header.php";
 ?>
 <div class="hero">
-
-  <!--<a href="http://codepen.io/zFunx/pen/GmMGax" class="contact-info-image" data-title="Contact Info" data-text="Telephone: +46 703960135<br>Email: jakkdakadk" >
-        </a>-->
-<img src="images/hero-contact.jpg" />
-<div class="overlay">
-<div class="overlay-title">Contact</div>
-<div class="overlay-text">Telephone: +46 703960135</div>
-
-</div>
+    <img src="images/hero-contact.jpg" />
+    <div class="overlay">
+        <div class="overlay-title"><h2>Contact</h2></div>
+        <div class="overlay-phone">Telephone: +46 703960135</div>
+        <div class="overlay-email">Email: marcus.morck@gmail.com</div>
+    </div>
 </div>
 <main role="main">
     <section id="contact">
@@ -25,20 +22,14 @@
 
         <form action="">
             <div class="form-group">
-            <!--<label for="forname">* Name:</label>-->
                 <input type="text" name="name" placeholder="Your Name (required)">
-            
-            
-            <!--<label for="lastname">* lastname:</label>-->
-            <input type="text" name="lastname"placeholder="Your Lastname (required)">
+                <input type="email" name="email"placeholder="Your Email (required)">
             </div>   
             <div class="form-group">
-            <!--<label for="email">* lastname:</label>-->
-            <input type="email" name="email"placeholder="Your Email (required)">
+                <input type="text" name="subject"placeholder="Subject (required)" class="subject">
             </div>
             <div class="form-group">
-                 
-                <textarea>  </textarea>
+                <textarea placeholder="Your Message"></textarea>
             </div>
         </form>
     </section>

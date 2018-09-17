@@ -29,6 +29,9 @@ a{
     width: 100%;
     max-height: 590px;
 }
+main{
+    padding: 15px;
+}
 /*------------------------------------------------------------------------------
 ------------------HEADER--------------------------------------------------------
 ------------------------------------------------------------------------------*/
@@ -190,37 +193,97 @@ footer{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+#contact h2{
+    text-align: center;
+}
+    /*--------------------------------
+    ----------CONTACT FORM------------
+    ---------------------------------*/
+    #contact form{
+        width: 80%;
+    }
 
-}
-#contact form{
-    /*display: flex;
-    justify-content: space-around;
-    flex-wrap: row wrap;*/
-    width: 80%;
-}
-
-.form-group{
-    display: flex;
-    flex-direction: row;
-}
-.form-group input{
-    flex: 1 1 auto;
-    font-size: 16px;
-    margin: 10 0px;
-    padding: 8px 8px 8px 10px;
-    outline: none; 
-    border-width: 0 0 2px;
-    
-}
-.form-group textarea{
-    flex: 1 1 auto;
-    outline: none;
-    border-width: 0 0 2px; 
-}
-#contact input:focus, textarea:focus{
-    outline: none;
-    border-bottom: 2px solid #023b78;
-}
+    .form-group{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .form-group input,
+    .form-group textarea{
+        width: 40%;
+        /*flex: 1 1 auto;*/
+        font-size: 16px;
+        margin: 10 0px;
+        padding: 8px 8px 8px 10px;
+        outline: none; 
+        border-width: 0 0 2px;
+    }
+    .form-group .subject {
+        flex: 1 1 auto;
+    }
+    .form-group textarea{
+        flex: 1 1 auto;
+        border-color: gray;
+        resize: none;
+    }
+    #contact input:focus, 
+    #contact textarea:focus{
+        outline: none;
+        border-bottom: 2px solid #023b78;
+    }
+    /*-----------------------------------
+    ----------OVERLAY--------------------
+    -----------------------------------*/
+    .overlay{
+        position: absolute;
+        top: 80;
+        bottom: 0;
+        left: 100%;
+        right: 0;
+        overflow: hidden;
+        width: 0;
+        height: 400px;
+        transition: .5s ease;
+        background-color: #023b78;
+    }
+    .hero:hover .overlay {
+        width: 30%;
+        left: 0;
+    }
+    .overlay-title {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 10%;
+        left: 12%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+    }
+    .overlay-phone {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+    }
+    .overlay-email{
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 30%;
+        left: 48%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+    }
 
 /*
 .contact-info-image{
@@ -288,41 +351,3 @@ footer{
 
 */
 
-.overlay{
-    position: absolute;
-    top: 80;
-    bottom: 0;
-    left: 100%;
-    right: 0;
-    overflow: hidden;
-    width: 0;
-    height: 400px;
-    transition: .5s ease;
-    background-color: #023b78;
-}
-.hero:hover .overlay {
-    width: 30%;
-    left: 0;
-  }
-.overlay-title {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 10%;
-    left: 20%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-  }
-  .overlay-text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 20%;
-    left: 40%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-  }
