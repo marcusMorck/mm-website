@@ -1,0 +1,45 @@
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 245px;
+    padding: 0 0 0 0;
+    background-color:#000000;
+    color: #fff;
+    width: 100%;
+    .footer-links{
+        font-size: 14px; 
+        padding: 10px 0 20px 0;
+        text-align: center;
+        a{
+            margin: 0 25px 0 0;
+        }
+        .fab:hover,a:hover{
+            color: lightblue;
+        }
+    }
+    .footer-tag{
+        font-size: 22px;
+        padding: 20px;
+        text-align: center;
+    }
+    .footer-copyright{
+    
+        text-align: center;
+        font-size: 10px;
+        padding: 15px;
+    }
+    .footer-social{
+        text-align: center;
+        .fab{
+            margin: 0 10px 0 0;
+        }
+    }
+}
+
+
+
+
+
+
+
